@@ -2,6 +2,7 @@
 import webbrowser
 import platform
 from colorama import Fore
+import os
 
 # Current OS
 os = platform.system()
@@ -44,7 +45,23 @@ if password =="d666":
 # Options
 option = "1"
 print("-=-=-=-=-=-=-=-=-=-=-=-=-=-= Options =-=-=-=-=-=-=-=-=-=-=-=-=-=-")
-print("\n\n1- Cracked games\n2- Soon...\n3- Soon...\n4- Soon...\n5- Soon...")
-input("\nEnter your Choice")
+print("\n\n1- Cracked games\n2- Soon...\n3- Soon...\n4- Soon...\n5- Soon...\n\nN- Next page)
+input("\nEnter your choice")
 if option =="1":
-    webbrowser.open("https://drive.google.com/drive/folders/1M8vQ-aEX9LtWZqwVi1r8jEVH0T1RMjJK?usp=sharing%22")
+    webbrowser.open("https://drive.google.com/drive/folders/1M8vQ-aEX9LtWZqwVi1r8jEVH0T1RMjJK?usp=sharing %s")
+if option =="2":
+    print("Soon...")
+if option =="3":
+    print("Soon...")
+if option ==("2")
+    print("Soon...")
+if option("4")
+    print("Soon...")
+if option("5")
+    print("Soon...")
+if option("N")
+    print("-=-=-=-=-=-=-=-=-=-=-=-=-=-= Options 2 =-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+print("\n\n1- Soon...\n2- Soon...\n3- Soon...\n4- Soon...\n5- Soon...")
+input("\nEnter your choice")
+if option ==("1")
+    print("Soon...")
