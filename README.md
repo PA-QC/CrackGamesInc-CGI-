@@ -1,7 +1,7 @@
   -----------------------------------------
 # CrackGamesInc-CGI
 
-All licenses reserved to CrackGamesInc
+All licenses reserved to CrackGamesInc Ⓒ
 
 Installation and User Guide
 
