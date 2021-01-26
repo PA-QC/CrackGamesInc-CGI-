@@ -5,7 +5,7 @@ All licenses reserved  to CrackGamesInc
 
 Instalation and User use guide
 
- on CGI.py
+Open CGI.py
 
 If the first way doesn't work use this
 
