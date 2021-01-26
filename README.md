@@ -1,9 +1,9 @@
   -----------------------------------------
 # CrackGamesInc-CGI
 
-All licenses reserved  to CrackGamesInc
+All licenses reserved to CrackGamesInc
 
-Instalation and User use guide
+Installation and User Guide
 
 Open CGI.py
 
