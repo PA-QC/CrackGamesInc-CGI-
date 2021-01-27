@@ -17,8 +17,11 @@ passwd = "d666"
 # AUTH-01 : Bad credentials (Username)
 # AUTH-02 : Bad credentials (Password)
 
+# Other Errors
+# ERR-01 : Content Unavailable
+
 # Text Color
-print(Fore.MAGENTA)
+print(Fore.LIGHTMAGENTA_EX)
 
 # Starting
 print("-=-=-=-=-=-=-=-=-=-=-=-=-=-= Welcome =-=-=-=-=-=-=-=-=-=-=-=-=-=-")
@@ -31,7 +34,7 @@ print("\nPlease sign in")
 # Username verification
 username = input("Enter Username: ")
 if username != user:
-    exit("✗ | Authentication Error (Exit Code : AUTH-01)")
+    exit("\n✗ | Authentication Error (Exit Code : AUTH-01)")
 elif username == user:
     print("\n✓ | Success")
 
@@ -43,25 +46,23 @@ if password =="d666":
     print("\n✓ | Success")
 
 # Options
-option = "1"
-print("-=-=-=-=-=-=-=-=-=-=-=-=-=-= Options =-=-=-=-=-=-=-=-=-=-=-=-=-=-")
-print("\n\n1- Cracked games\n2- Soon...\n3- Soon...\n4- Soon...\n5- Soon...\n\nN- Next page)
-input("\nEnter your choice")
-if option =="1":
+print(Fore.LIGHTGREEN_EX)
+print("\n-=-=-=-=-=-=-=-=-=-=-=-=-=-= Options =-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+print("\n1- Cracked games\n2- Money-Maker\n3- Soon...\n4- Soon...\n5- Soon...\nh- Help")
+print(Fore.LIGHTGREEN_EX)
+print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+print(Fore.LIGHTMAGENTA_EX)
+option = input("Choose an option:")
+# Selection
+if option == "1":
     webbrowser.open("https://drive.google.com/drive/folders/1M8vQ-aEX9LtWZqwVi1r8jEVH0T1RMjJK?usp=sharing %s")
-if option =="2":
-    print("Soon...")
-if option =="3":
-    print("Soon...")
-if option ==("2")
-    print("Soon...")
-if option("4")
-    print("Soon...")
-if option("5")
-    print("Soon...")
-if option("N")
-    print("-=-=-=-=-=-=-=-=-=-=-=-=-=-= Options 2 =-=-=-=-=-=-=-=-=-=-=-=-=-=-")
-print("\n\n1- Soon...\n2- Soon...\n3- Soon...\n4- Soon...\n5- Soon...")
-input("\nEnter your choice")
-if option ==("1")
-    print("Soon...")
+    exit("OPT-1C")
+elif option == "2":
+    webbrowser.open("http://aorracer.com/8iCX")
+elif option == "h":
+    print(Fore.LIGHTWHITE_EX)
+    print("Contact us on [ crackedgamesinc.help@gmail.com ] ")
+elif option == "H":
+    print(Fore.LIGHTWHITE_EX)
+    print("Contact us on [ crackedgamesinc.help@gmail.com ] ")
+    print(Fore.LIGHTMAGENTA_EX)
