@@ -15,6 +15,8 @@ Error Codes :
   Authentication :
   AUTH-01 = Bad Crendentials (Username)
   AUTH-02 = Bad Crendentials (Password)
+  OPT-1C = Force Exit ( Choose 1 )
+  OPT-2C = Force Exit ( Choose 2 ) 
   
   
   -----------------------------------------
