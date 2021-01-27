@@ -2,6 +2,7 @@
 import webbrowser
 import platform
 from colorama import Fore
+import time
 import os
 
 # Current OS
@@ -28,7 +29,7 @@ print("-=-=-=-=-=-=-=-=-=-=-=-=-=-= Welcome =-=-=-=-=-=-=-=-=-=-=-=-=-=-")
 print(" ")
 print("Your current Operating System is: " + os)
 
-print("\nOpen Readme.txt file, the creds are here")
+print("\nOpen Readme.txt file")
 print("\nPlease sign in")
 
 # Username verification
@@ -48,21 +49,36 @@ if password =="d666":
 # Options
 print(Fore.LIGHTGREEN_EX)
 print("\n-=-=-=-=-=-=-=-=-=-=-=-=-=-= Options =-=-=-=-=-=-=-=-=-=-=-=-=-=-")
-print("\n1- Cracked games\n2- Money-Maker\n3- Soon...\n4- Soon...\n5- Soon...\nh- Help")
+
+print("\n1- Cracked games")
+time.sleep(0.1)
+print("2- Money-Maker")
+time.sleep(0.1)
+print("3-Network Analyser/DDOS")
+time.sleep(0.1)
+print("4- Soon...")
+time.sleep(0.1)
+print("5- Soon...")
+time.sleep(0.1)
+print("h- Help")
 print(Fore.LIGHTGREEN_EX)
+time.sleep(0.1)
 print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+time.sleep(0.1)
 print(Fore.LIGHTMAGENTA_EX)
 option = input("Choose an option:")
 # Selection
 if option == "1":
-    webbrowser.open("https://drive.google.com/drive/folders/1M8vQ-aEX9LtWZqwVi1r8jEVH0T1RMjJK?usp=sharing %s")
+    webbrowser.open("http://aorracer.com/A2C2 %s")
     exit("OPT-1C")
 elif option == "2":
     webbrowser.open("http://aorracer.com/8iCX")
 elif option == "h":
-    print(Fore.LIGHTWHITE_EX)
+    print(Fore.LIGHTYELLOW_EX)
     print("Contact us on [ crackedgamesinc.help@gmail.com ] ")
 elif option == "H":
     print(Fore.LIGHTWHITE_EX)
     print("Contact us on [ crackedgamesinc.help@gmail.com ] ")
     print(Fore.LIGHTMAGENTA_EX)
+elif option == "3":
+    print("DDOS SCRIPT")
