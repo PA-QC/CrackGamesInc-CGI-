@@ -1,0 +1,38 @@
+# def var # 1 - 17
+number1 = '1'
+number2 = '2'
+number3 = '3'
+number4 = '4'
+number5 = '5'
+number6 = '6'
+number7 = '7'
+number8 = '8'
+number9 = '9'
+number10 = '10'
+number11 = '11'
+number12 = '12'
+number13 = '13'
+number14 = '14'
+number15 = '15'
+number16 = '16'
+print('Entrez la note de 16 élèves pour obtenir la moyenne')
+number1 = input('Premier élève ')
+number2 = input('Deuxième élève ')
+number3 = input('Troisième élève ')
+number4 = input('Quatrième élève ')
+number5 = input('Cinquième élève ')
+number6 = input('Sixième élève ')
+number7 = input('Septième élève ')
+number8 = input('Huitième élève ')
+number9 = input('Neuvième élève ')
+number10 = input('Dixième élève ')
+number11 = input('Onzième élève ')
+number12 = input('Douzième élève ')
+number13 = input('Trèzième élève ')
+number14 = input('Quatorzième élève ')
+number15 = input('Quinzième élève ')
+number16 = input('Seizième élève ')
+print('-------------------------------------')
+Result = str(number1+number2+number3+number4+number5+number6+number7+number8+number9+number10+number11+number12+number13+number14+number15+number16 / 3)
+
+print(Result)
